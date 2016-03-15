@@ -1,11 +1,14 @@
+#VHDL Components
+This is a collection of 
+
 Component Naming:
 
 COMPONENTNAME_#BIT_#IN_#REG... etc
 
 Start with a descriptive component name
-#BIT refers to input width - a second #BIT will refer to output width
-#IN refers to number of inputs
-#REG, #MUX, etc. refers to number of said component within the 
+\#BIT refers to input width - a second \#BIT will refer to output width
+\#IN refers to number of inputs
+\#REG, \#MUX, etc. refers to number of said component within the 
 
 Example: An extender that extends a 16 bit input to a 32 bit output:
 extender_16bit_32bit.vhd
