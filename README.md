@@ -1,4 +1,5 @@
 #VHDL Components
+<<<<<<< HEAD
 This is a collection of 
 
 Component Naming:
@@ -47,3 +48,8 @@ c_S -> select (for muxes, etc)
 o_D -> data output
 o_C -> carry output
 o_OF -> overflow output
+=======
+This is a library of low level VHDL components for use in larger VHDL systems (See https://github.com/dnhushak/MIPS-Processor for an example).
+
+For an explanation of the naming conventions of the files, see [this file](NAMECONVENTIONS.md)
+>>>>>>> 63a2d5c9aec640993804d72625b1f2a0eea72138
