@@ -1,4 +1,4 @@
-#Component Naming Conventions:
+# Component Naming Conventions:
 
 ```COMPONENTNAME_#BIT_#IN_#REG... etc```
 
@@ -7,7 +7,7 @@ Each component starts with a descriptive name, followed by underscores to indica
 * \#IN refers to number of inputs (This can be confused with input width. Though they are similar, they are not the same)
 * \#REG, \#MUX, etc. refers to number of said component within the 
 
-##Naming Convention Examples:
+## Naming Convention Examples:
 * An extender that extends a 16 bit input to a 32 bit output:
 ```
 extender_16bit_32bit.vhd
@@ -25,7 +25,7 @@ extender_Nbit_Mbit.vhd
 
 Within this extender component, the generic referring to input width would be N, and output width would be M
 
-##Port naming:
+## Port naming:
 * Inputs:
 ```
 i_INPUTNAME
@@ -51,7 +51,7 @@ s_SIGNALNAME
 g_GENERATENAME
 ```
 
-###Standard ports names:
+### Standard ports names:
 * ```i_A```, ```i_B``` -> Data in ports
 * ```i_C``` -> carry input
 * ```c_S``` -> select (for muxes, etc)
