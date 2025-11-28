@@ -1,4 +1,4 @@
-#VHDL Components
+# VHDL Components
 <<<<<<< HEAD
 This is a collection of 
 
